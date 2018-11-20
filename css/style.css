@@ -34,6 +34,20 @@ a {
 p {
   margin-bottom: 1.5em; }
 
+/* WORDS SWAP */
+[data-words]{
+  vertical-align: top;
+  position: static;
+}
+
+[data-words] > span{
+  position: absolute;
+  font-family: "Playfair Display", Georgia, serif; 
+  color: #00816D;
+  font-style: oblique;
+  font-weight: 700;
+}
+
 #special{
     color: rgba(0, 0, 0, 0.7);
 }
