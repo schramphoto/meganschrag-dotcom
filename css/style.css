@@ -212,7 +212,7 @@ figure {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     padding: 0 20px;
-    width: 100%; }
+    width: 100%;}
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
@@ -228,7 +228,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color:#00816D; 
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -238,6 +238,15 @@ figure {
 .container-wrap {
   max-width: 1170px;
   margin: 0 auto; }
+
+.lines {
+  border:none;
+  border-top:1px dotted #00816D;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+  width:38%;
+}
 
 #colorlib-main {
   width: calc(100% - 300px);
@@ -524,7 +533,8 @@ body.offcanvas {
   font-weight: 400;
   top: 50%;
   line-height: 1;
-  margin-top: -7px; }
+  margin-top: -7px;
+}
 
 .panel-heading a.collapsed:after {
   content: "\e114"; }
