@@ -431,3 +431,4 @@ $(window).on("load", dataWord);
     });
 
 })();
+
