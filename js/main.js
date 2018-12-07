@@ -432,3 +432,103 @@ $(window).on("load", dataWord);
 
 })();
 
+	var site = $('#site');
+    
+    $(document).ready(function() {
+        window.prettyPrint && prettyPrint()
+        var slider = $('#lightSlider').lightSlider({
+            gallery:true,
+            item:1,
+            thumbItem:9,
+            slideMargin: 0,
+            speed:500,
+            auto:true,
+            loop:true,
+            onSliderLoad: function() {
+                $('#lightSlider').removeClass('cS-hidden');
+            }     
+        });
+        $('#content-slider').lightSlider({
+            keyPress:false,
+            item:4,
+            loop:true,
+            onSliderLoad: function() {
+                $('#content-slider').removeClass('cS-hidden');
+            } 
+        })
+        var clk = true;
+        $('.btn-navbar').on('click',function(){
+            if(site.hasClass('translate')){
+                clk = false;    
+                site.removeClass('translate');  
+                setTimeout(function(){
+                    $("#mast-head").css('display','none');  
+                    clk = true;
+                },700);
+            }else if(clk){
+                $("#mast-head").css('display','block'); 
+                site.addClass('translate');     
+            }
+        });
+        $('#site').on('touchmove', function(e) {
+            if($(this).hasClass('translate')){
+                e.preventDefault();
+            }
+        });
+        $('#site > .nav-over').on('click touchstart',function(e){
+            e.preventDefault();
+            e.stopPropagation();
+            clk = false;
+            site.removeClass('translate');  
+            setTimeout(function(){
+                $("#mast-head").css('display','none');  
+                clk = true;
+            },700); 
+        })
+        $(window).on("resize orientationchange", function(){
+            if($(window).width() > 767){
+                $("#mast-head").css('display','block'); 
+                site.removeClass('translate');
+            }else if(!site.hasClass('translate')){
+                $("#mast-head").css('display','none');      
+            }
+        });
+    });
+
+
+    $('#twitter').sharrre({
+      share: {
+        twitter: true
+      },
+      enableHover: false,
+      enableTracking: true,
+      buttons: { twitter: {}},
+      click: function(api, options){
+        api.simulateClick();
+        api.openPopup('twitter');
+      }
+    });
+    $('#facebook').sharrre({
+      share: {
+        facebook: true
+      },
+      enableHover: false,
+      enableTracking: true,
+      click: function(api, options){
+        api.simulateClick();
+        api.openPopup('facebook');
+      }
+    });
+    $('#googleplus').sharrre({
+      share: {
+        googlePlus: true
+      },
+      enableHover: false,
+      enableTracking: true,
+      click: function(api, options){
+        api.simulateClick();
+        api.openPopup('googlePlus');
+      }
+    });
+
+
