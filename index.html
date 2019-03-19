@@ -29,6 +29,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Meddon" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
         
 	<!-- Animate.css -->
@@ -43,6 +44,7 @@
 	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="sass/style.scss">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -88,16 +90,14 @@
                         <li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="services">Freelance Services</a></li>
                         <li><a href="#" data-nav-section="about">About</a></li>
-                        <li><a href="#" data-nav-section="contact">Contact</a></li>
-                        <hr>
-						<li><a href="" data-nav-section="blog">Blog</a></li>		
+                        <li><a href="#" data-nav-section="contact">Contact</a></li>	
 					</ul>
 				</div>
 			</nav>
 <!-- NAV menu END -->
             
 			<div class="colorlib-footer">
-                <p><small>&copy;&nbsp;Megan Schrag, <script>document.write(new Date().getFullYear());</script>.
+                <p><small>&copy;&nbsp;Megan Schrag, <script>document.write(new Date().getFullYear());</script>.</small>
                 </p>
 			</div>
     	</aside>
@@ -260,173 +260,71 @@
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 							<span class="heading-meta">My Work</span>
 							<h2 class="colorlib-heading animate-box">Recent Work</h2>
+<div class="wrapper">
+  <input checked type=radio name="slider" id="slide1" />
+  <input type=radio name="slider" id="slide2" />
+  <input type=radio name="slider" id="slide3" />
+  <input type=radio name="slider" id="slide4" />
+  <input type=radio name="slider" id="slide5" />
+
+  <div class="slider-wrapper">
+    <div class=inner>
+      <article class="blip">
+        <div class="info top-left">
+          <h3>Lancome, Illuminated</h3></div>
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/meganschrag/4477382508/in/album-72157623612299103/" title="_MG_2056"><img src="https://farm5.staticflickr.com/4023/4477382508_1285898cfe_m.jpg" width="240" height="186" alt="_MG_2056"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+      </article>
+
+     <article class="blip">
+        <div class="info bottom-right">
+          <h3>Cameron Highland</h3></div>
+        <img src="https://farm6.staticflickr.com/5812/23394215774_b76cd33a87_h_d.jpg" />
+      </article>
+
+      <article class="blip">
+        <div class="info bottom-left">
+          <h3>New Delhi</h3></div>
+        <img src="https://farm8.staticflickr.com/7455/27879053992_ef3f41c4a0_h_d.jpg" />
+      </article>
+
+      <article class="blip">
+        <div class="info top-right">
+          <h3>Ladakh</h3></div>
+        <img src="https://farm8.staticflickr.com/7367/27980898905_72d106e501_h_d.jpg" />
+      </article>
+
+      <article class="blip">
+        <div class="info bottom-left">
+          <h3>Nubra Valley</h3></div>
+        <img src="https://farm8.staticflickr.com/7356/27980899895_9b6c394fec_h_d.jpg" />
+      </article>
+    </div>
+    <!-- .inner -->
+  </div>
+  <!-- .slider-wrapper -->
+
+  <div class="slider-prev-next-control">
+    <label for=slide1></label>
+    <label for=slide2></label>
+    <label for=slide3></label>
+    <label for=slide4></label>
+    <label for=slide5></label>
+  </div>
+  <!-- .slider-prev-next-control -->
+
+  <div class="slider-dot-control">
+    <label for=slide1></label>
+    <label for=slide2></label>
+    <label for=slide3></label>
+    <label for=slide4></label>
+    <label for=slide5></label>
+  </div>
+  <!-- .slider-dot-control -->
+</div>
                             
 						</div>
-                        
-                                        <div class="col-sm-6">
-                   
-                    <div class="clearfix" style="max-width:600px;">
-                        <div class="lSSlideOuter">
-                            <div class="lSSlideWrapper usingCss" style="transition-timing-function: ease; transition-duration: 500ms;">     <ul id="lightSlider" class="gallery list-unstyled lightSlider lsGrab lSSlide" style="width: 8058px; height: 338px; padding-bottom: 0%; transform: translate3d(-1896px, 0px, 0px);">
-                                <ul id="lightSlider" class="gallery list-unstyled lightSlider lsGrab lSSlide" style="width: 8058px; height: 338px; padding-bottom: 0%; transform: translate3d(-1896px, 0px, 0px);">
-                            <li data-thumb="img/thumb/cS-15.jpg" class="clone left" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-15.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-1.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-1.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-2.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-2.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-3.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-3.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-4.jpg" class="lslide active" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-4.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-5.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-5.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-6.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-6.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-7.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-7.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-8.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-8.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-9.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-9.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-10.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-10.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-11.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-11.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-12.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-12.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-13.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-13.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-14.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-14.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-15.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-15.jpg">
-                                 </li>
-                        <li data-thumb="img/thumb/cS-1.jpg" class="clone right" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-1.jpg">
-                                 </li></ul>
-                            <li data-thumb="img/thumb/cS-15.jpg" class="clone left" style="width: 474px; margin-right: 0px;"> 
-                            <img src="img/cS-15.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-1.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-1.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-2.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                            <img src="img/cS-2.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-3.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-3.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-4.jpg" class="lslide active" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-4.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-5.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-5.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-6.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-6.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-7.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-7.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-8.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-8.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-9.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-9.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-10.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-10.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-11.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-11.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-12.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-12.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-13.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-13.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-14.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-14.jpg">
-                                 </li>
-                            <li data-thumb="img/thumb/cS-15.jpg" class="lslide" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-15.jpg">
-                                 </li>
-                        <li data-thumb="img/thumb/cS-1.jpg" class="clone right" style="width: 474px; margin-right: 0px;"> 
-                                <img src="img/cS-1.jpg">
-                                 </li></ul><div class="lSAction"><a class="lSPrev"></a><a class="lSNext"></a></div>
-                    </div>
-                        <ul id="lightSlider" class="gallery list-unstyled cS-hidden">
-                            
-                            <li data-thumb="img/thumb/cS-1.jpg"> 
-                                <img src="img/cS-1.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-2.jpg"> 
-                                <img src="img/cS-2.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-3.jpg"> 
-                                <img src="img/cS-3.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-4.jpg"> 
-                                <img src="img/cS-4.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-5.jpg"> 
-                                <img src="img/cS-5.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-6.jpg"> 
-                                <img src="img/cS-6.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-7.jpg"> 
-                                <img src="img/cS-7.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-8.jpg"> 
-                                <img src="img/cS-8.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-9.jpg"> 
-                                <img src="img/cS-9.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-10.jpg"> 
-                                <img src="img/cS-10.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-11.jpg"> 
-                                <img src="img/cS-11.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-12.jpg"> 
-                                <img src="img/cS-12.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-13.jpg"> 
-                                <img src="img/cS-13.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-14.jpg"> 
-                                <img src="img/cS-14.jpg" />
-                                 </li>
-                            <li data-thumb="img/thumb/cS-15.jpg"> 
-                                <img src="img/cS-15.jpg" />
-                                 </li>
-                        </ul>
                     </div>
                 </div>
-            </div>
-                        
-                    
-        </div>
-    </div>
 </section>
 
 <!-- Portfolio END -->  
@@ -766,8 +664,8 @@
 									<i class="icon-data"></i>
 								</span>
 								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+									<h3>A/V</h3>
+									<p>Nah, I'm not talking about the nerdy club you were in during high school. I can create highly impactful visuals to build your brand. Need a commerial shoot set up? I've got you covered. From hiring talent to getting "THE SHOT", I have the skills.</p>
 								</div>
 							</div>
 						</div>
@@ -777,8 +675,8 @@
 									<i class="icon-phone3"></i>
 								</span>
 								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+									<h3>Social Media</h3>
+									<p>Need someone to manage your social media accounts? I can do that for you. I have experience growing business both organically and with paid advertising.</p>
 								</div>
 							</div>
 						</div>
@@ -936,55 +834,7 @@
 				</div>
 			</section>
 
-<!-- Blog Pick -->            
-			<section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="pages/blog.html" class="blog-img"><img src="images/pexels-photo-942317.jpeg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="pages/graphic-designer-near-me.html">Graphic Designer Near Me</a></h3>
-									<p>Let's talk about SEO and why it matters!</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
-<!-- Blog Menu END -->
+
                 
 		</div><!-- end:colorlib-main -->
 	</div><!-- end:container-wrap -->
